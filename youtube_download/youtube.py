@@ -80,9 +80,6 @@ urlField=Entry(root,font=font,justify=CENTER)
 urlField.pack(side=TOP,fill=X,padx=10)
 urlField.focus()
 
-#download buttom
-downloadBtn=Button(root,text="Download Video",font=font,relief='ridge',command=btnclicked)
-downloadBtn.pack(side=TOP,pady=20)
 
 root.mainloop()
 
